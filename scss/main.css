@@ -1,5 +1,41 @@
+.main {
+  margin: 100px;
+}
+
+.hero {
+  background: #5265E1;
+}
+
+.nav-link:hover {
+  color: #FA5959 !important;
+}
+
+.blue-btn {
+  margin: 10px;
+}
+
+.red-btn:hover:hover {
+  color: #FA5959 !important;
+  background-color: white;
+  border-color: #FA5959;
+}
+
+.blue-btn:hover:hover {
+  color: #5265E1 !important;
+}
+
+.black-btn:hover:hover {
+  color: black !important;
+}
+
 h1, .h1 {
-  color: aqua;
+  color: #000000;
+}
+
+h4, .h4 {
+  margin-bottom: 10px;
+  margin-top: auto;
+  color: #9f9b9b;
 }
 
 /*!

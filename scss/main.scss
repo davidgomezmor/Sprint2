@@ -1,5 +1,52 @@
-h1 {
-   color: aqua 
+$color-principal: #5265E1 ;
+$color-secundari: #FA5959 ;
+
+$colorbg: #3b3c42; 
+
+
+.main {
+    margin: 100px;
 }
 
+
+
+.hero {
+background: #5265E1;
+
+}
+
+.nav-link:hover{
+    color:#FA5959 !important; 
+ }
+
+.blue-btn{
+margin: 10px;
+
+}
+
+ .red-btn:hover:hover{
+    color: $color-secundari !important;
+    background-color: white; 
+    border-color: $color-secundari;
+ }
+
+ .blue-btn:hover:hover{
+    color: $color-principal !important; 
+ }
+
+ .black-btn:hover:hover{
+    color: black !important; 
+ }
+
+h1 {
+    color: #000000
+}
+
+  h4 {
+    margin-bottom: 10px;
+    margin-top: auto;
+    color: #9f9b9b
+  }
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
