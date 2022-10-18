@@ -1,19 +1,27 @@
 $color-principal: #5265E1 ;
 $color-secundari: #FA5959 ;
-
 $colorbg: #3b3c42; 
 
+   .col-center{
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+}
 
 .main {
     margin: 100px;
 }
 
-
-
 .hero {
-background: #5265E1;
-
+background: $color-principal;
+border-radius: 0 0 0 100px;
 }
+
+.hero-2 {
+   background: $color-principal;
+   border-radius: 0 0 100px 0;
+
+   }
 
 .nav-link:hover{
     color:#FA5959 !important; 
@@ -29,6 +37,7 @@ margin: 10px;
     background-color: white; 
     border-color: $color-secundari;
  }
+
 
  .blue-btn:hover:hover{
     color: $color-principal !important; 
@@ -47,6 +56,11 @@ h1 {
     margin-top: auto;
     color: #9f9b9b
   }
+
+.features {
+   text-align: center;
+   justify-items: center;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
