@@ -15,6 +15,8 @@ $colorbg: #3b3c42;
 .hero {
 background: $color-principal;
 border-radius: 0 0 0 100px;
+position: relative;
+
 }
 
 .hero-2 {
@@ -29,7 +31,7 @@ border-radius: 0 0 0 100px;
 
 .blue-btn{
 margin: 10px;
-
+background-color: #7e5c17;
 }
 
  .red-btn:hover:hover{
@@ -40,11 +42,13 @@ margin: 10px;
 
 
  .blue-btn:hover:hover{
-    color: $color-principal !important; 
+    color: black !important; 
+    background-color: white; 
  }
 
  .black-btn:hover:hover{
-    color: black !important; 
+   color: $color-principal !important; 
+   background-color: white; 
  }
 
 h1 {
@@ -55,12 +59,59 @@ h1 {
     margin-bottom: 10px;
     margin-top: auto;
     color: #9f9b9b
+
   }
 
 .features {
    text-align: center;
    justify-items: center;
 }
+
+.btn-download:hover:hover{
+   color: $color-principal !important;
+    background-color: white; 
+    border-color: $color-principal;
+    font-weight: bold;
+   }
+
+.border-card {
+   margin: 25px auto;
+   border: 1px solid #ccc;
+   width: 25px;
+   height: 10px;
+   box-shadow: 3px 3px 7px #908e8a; 
+}
+
+.border-dot {
+border-bottom: 3px dotted;
+border-bottom: medium dotted rgb(199, 199, 199);
+}
+
+.explorer-icon {
+display:block;
+margin:auto;
+margin-top: 50px;
+}
+
+.card-size{
+   width: 100px;
+}
+
+.card-title {
+   text-align: center;
+}
+
+#position-1{
+position: relative;
+bottom: 35px;
+left: 60px;
+}
+
+#position-3{
+   position: relative;
+   top: 35px;
+   right: 60px;
+   }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 

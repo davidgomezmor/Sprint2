@@ -11,6 +11,7 @@
 .hero {
   background: #5265E1;
   border-radius: 0 0 0 100px;
+  position: relative;
 }
 
 .hero-2 {
@@ -24,6 +25,7 @@
 
 .blue-btn {
   margin: 10px;
+  background-color: #7e5c17;
 }
 
 .red-btn:hover:hover {
@@ -33,11 +35,13 @@
 }
 
 .blue-btn:hover:hover {
-  color: #5265E1 !important;
+  color: black !important;
+  background-color: white;
 }
 
 .black-btn:hover:hover {
-  color: black !important;
+  color: #5265E1 !important;
+  background-color: white;
 }
 
 h1, .h1 {
@@ -53,6 +57,53 @@ h4, .h4 {
 .features {
   text-align: center;
   justify-items: center;
+}
+
+.btn-download:hover:hover {
+  color: #5265E1 !important;
+  background-color: white;
+  border-color: #5265E1;
+  font-weight: bold;
+}
+
+.border-card {
+  margin: 25px auto;
+  border: 1px solid #ccc;
+  width: 25px;
+  height: 10px;
+  -webkit-box-shadow: 3px 3px 7px #908e8a;
+          box-shadow: 3px 3px 7px #908e8a;
+}
+
+.border-dot {
+  border-bottom: 3px dotted;
+  border-bottom: medium dotted #c7c7c7;
+}
+
+.explorer-icon {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.card-size {
+  width: 100px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#position-1 {
+  position: relative;
+  bottom: 35px;
+  left: 60px;
+}
+
+#position-3 {
+  position: relative;
+  top: 35px;
+  right: 60px;
 }
 
 /*!
