@@ -2,6 +2,11 @@ $color-principal: #5265E1 ;
 $color-secundari: #FA5959 ;
 $colorbg: #3b3c42; 
 
+$theme-colors: (
+"primary":$color-principal
+"secondary":$color-secundari
+);
+
    .col-center{
       float: none;
       margin-left: auto;
@@ -111,6 +116,17 @@ left: 60px;
    position: relative;
    top: 35px;
    right: 60px;
+   }
+
+#downloads {
+   position: relative;
+   top: 35px;
+   left: 300px;
+   }
+
+#faqs-position {
+   position: relative;
+   top: 100px;
    }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
