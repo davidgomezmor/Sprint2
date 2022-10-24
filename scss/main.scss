@@ -7,6 +7,7 @@ $theme-colors: (
 "secondary":$color-secundari
 );
 
+
    .col-center{
       float: none;
       margin-left: auto;
@@ -27,7 +28,6 @@ position: relative;
 .hero-2 {
    background: $color-principal;
    border-radius: 0 0 100px 0;
-
    }
 
 .nav-link:hover{
@@ -37,6 +37,7 @@ position: relative;
 .blue-btn{
 margin: 10px;
 background-color: #7e5c17;
+
 }
 
  .red-btn:hover:hover{
