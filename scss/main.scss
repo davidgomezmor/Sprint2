@@ -31,13 +31,18 @@ position: relative;
    }
 
 .nav-link:hover{
-    color:#FA5959 !important; 
+    color:#7cfa59 !important; 
  }
 
 .blue-btn{
 margin: 10px;
 background-color: #7e5c17;
 
+}
+
+.red-btn{
+    background-color: rgb(214, 31, 31); 
+    border-color: $color-secundari; 
 }
 
  .red-btn:hover:hover{
@@ -107,6 +112,11 @@ margin-top: 50px;
    text-align: center;
 }
 
+.footer {
+   text-align: center;
+   color: white;
+}
+
 #position-1{
 position: relative;
 bottom: 35px;
@@ -119,11 +129,6 @@ left: 60px;
    right: 60px;
    }
 
-#downloads {
-   position: relative;
-   top: 35px;
-   left: 300px;
-   }
 
 #faqs-position {
    position: relative;
